@@ -15,8 +15,8 @@ npm install codemirror-latex-hint codemirror
 # To Use
 ```javascript
 import LaTeXHint from "codemirror-latex-hint";
-import macros from "codemirror-latex-hint/macros.json"
-import "codemirror-latex-hint/codemirror-latex-hint.css";
+import macros from "codemirror-latex-hint/lib/macros.json";
+import "codemirror-latex-hint/lib/index.css";
 
 CodeMirror.registerHelper("hint", "stex", (cm) => LaTeXHint(cm, macros));
 ```
