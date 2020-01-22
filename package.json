@@ -1,6 +1,6 @@
 {
  "name": "codemirror-latex-hint",
- "version": "1.0.3",
+ "version": "1.0.4",
  "description": "An IntelliSense-like hinter for CodeMirror",
  "main": "lib/index.js",
  "peerDependencies": {
@@ -30,5 +30,8 @@
  "bugs": {
   "url": "https://github.com/jun-sheaf/codemirror-latex-hint/issues"
  },
- "homepage": "https://github.com/jun-sheaf/codemirror-latex-hint#readme"
+ "homepage": "https://github.com/jun-sheaf/codemirror-latex-hint#readme",
+ "dependencies": {
+  "codemirror": "^5.51.0"
+ }
 }
