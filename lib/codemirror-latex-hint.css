@@ -1,0 +1,36 @@
+.CodeMirror-hints {
+ position: absolute;
+ z-index: 10;
+ overflow: hidden;
+ list-style: none;
+
+ margin: 0;
+ padding: 0;
+
+ border: 1px solid silver;
+
+ background: white;
+ font-size: 90%;
+ font-family: "Fira Code";
+
+ max-height: 20em;
+ overflow-y: auto;
+}
+
+.CodeMirror-hint {
+ margin: 0;
+ padding: 0 4px;
+ border-radius: 2px;
+ white-space: pre;
+ color: black;
+ cursor: pointer;
+}
+.CodeMirror-hint-entered {
+ color: #170;
+}
+.CodeMirror-hint-arg {
+ color: gray;
+}
+li.CodeMirror-hint-active {
+ background: rgb(201, 233, 195);
+}

@@ -1,6 +1,6 @@
 {
  "name": "codemirror-latex-hint",
- "version": "1.0.0",
+ "version": "1.0.1",
  "description": "An IntelliSense-like hinter for CodeMirror",
  "main": "index.js",
  "dependencies": {

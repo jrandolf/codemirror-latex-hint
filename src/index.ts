@@ -3,8 +3,7 @@ import CodeMirror, {
  Hint,
  Editor,
  EditorChangeLinkedList,
- Position,
- HintFunction,
+ Position
 } from "codemirror";
 import "codemirror/addon/hint/show-hint"
 import macros from "./macros.json";
