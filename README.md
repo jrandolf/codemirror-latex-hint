@@ -21,4 +21,4 @@ CodeMirror.registerHelper("hint", "stex", (cm) => LaTeXHint(cm, macros));
 ```
 
 # Customization
-The list of macros in the package has all MathJaX macros and environments You can import your own list of macros using the format given in `macros.json`.
+The list of macros in the package contains all MathJaX macros and environments. You can import your own list of macros (with the format given in `macros.json`) rather than the packaged one.

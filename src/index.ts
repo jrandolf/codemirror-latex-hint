@@ -112,7 +112,7 @@ const intelliSense: Hint["hint"] = (cm, self, data) => {
     cm.setCursor(start);
    }
    dissectedSnippet.shift();
-   if (dissectedSnippet.length === 1) {
+   if (dissectedSnippet.length === 0) {
     return stopSnippet();
    }
   },
