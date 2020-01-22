@@ -18,9 +18,9 @@
   "type": "git",
   "url": "git+https://github.com/jun-sheaf/codemirror-latex-hint.git"
  },
- "keywords": [],
- "author": "",
- "license": "ISC",
+ "keywords": ["codemirror", "autocomplete", "hint", "snippet", "intellisense"],
+ "author": "jun-sheaf",
+ "license": "MIT",
  "bugs": {
   "url": "https://github.com/jun-sheaf/codemirror-latex-hint/issues"
  },
