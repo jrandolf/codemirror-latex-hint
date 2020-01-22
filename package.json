@@ -1,0 +1,28 @@
+{
+ "name": "codemirror-latex-hint",
+ "version": "1.0.0",
+ "description": "An IntelliSense-like hinter for CodeMirror",
+ "main": "index.js",
+ "dependencies": {
+  "codemirror": "^5.51.0"
+ },
+ "devDependencies": {
+  "@types/codemirror": "0.0.82",
+  "typescript": "^3.7.5"
+ },
+ "scripts": {
+  "build": "tsc",
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/jun-sheaf/codemirror-latex-hint.git"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/jun-sheaf/codemirror-latex-hint/issues"
+ },
+ "homepage": "https://github.com/jun-sheaf/codemirror-latex-hint#readme"
+}
