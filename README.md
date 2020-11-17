@@ -1,3 +1,6 @@
+> This hinter is no longer required in CodeMirror 6. Please see [lezer-tex](https://github.com/mu-io/lezer-tex) for a grammar plugin for CodeMirror 6.
+> Since CodeMirror 6 is in beta, this repository is deprecated.
+
 # LaTeX Snippet Hinter for CodeMirror
 
 This is a hinter function for use with [CodeMirror](https://codemirror.net)'s [showHint.js](https://codemirror.net/doc/manual.html#addon_show-hint) plugin. This is based on [TeXStudio](https://github.com/texstudio-org/texstudio)'s autocompletion mechanism.
